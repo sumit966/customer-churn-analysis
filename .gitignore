@@ -1,0 +1,26 @@
+﻿__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+.env
+.env.local
+
+# Data & models
+data/*.csv
+data/*.parquet
+reports/*.png
+reports/*.md
+models/*.joblib
+!data/.gitkeep
+!reports/.gitkeep
+!models/.gitkeep

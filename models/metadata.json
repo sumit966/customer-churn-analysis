@@ -1,0 +1,108 @@
+{
+  "best_model": "logistic_regression",
+  "auc_roc": 0.5737286479620914,
+  "all_results": {
+    "logistic_regression": {
+      "accuracy": 0.572,
+      "precision": 0.5129310344827587,
+      "recall": 0.27419354838709675,
+      "f1": 0.35735735735735735,
+      "auc_roc": 0.5737286479620914
+    },
+    "random_forest": {
+      "accuracy": 0.54,
+      "precision": 0.46060606060606063,
+      "recall": 0.35023041474654376,
+      "f1": 0.39790575916230364,
+      "auc_roc": 0.5446499812737132
+    }
+  },
+  "top_churn_drivers": [
+    {
+      "feature": "cat__payment_method_Electronic check",
+      "importance": 0.2632
+    },
+    {
+      "feature": "cat__internet_service_Fiber optic",
+      "importance": 0.2543
+    },
+    {
+      "feature": "cat__internet_service_No",
+      "importance": 0.2473
+    },
+    {
+      "feature": "cat__contract_Month-to-month",
+      "importance": 0.2437
+    },
+    {
+      "feature": "cat__contract_One year",
+      "importance": 0.2368
+    },
+    {
+      "feature": "num__monthly_charges",
+      "importance": 0.1934
+    },
+    {
+      "feature": "num__total_charges",
+      "importance": 0.1571
+    },
+    {
+      "feature": "cat__partner_Yes",
+      "importance": 0.1562
+    },
+    {
+      "feature": "cat__tech_support_Yes",
+      "importance": 0.1493
+    },
+    {
+      "feature": "cat__payment_method_Credit card",
+      "importance": 0.1406
+    },
+    {
+      "feature": "cat__internet_service_DSL",
+      "importance": 0.1273
+    },
+    {
+      "feature": "cat__contract_Two year",
+      "importance": 0.1272
+    },
+    {
+      "feature": "cat__dependents_Yes",
+      "importance": 0.127
+    },
+    {
+      "feature": "cat__payment_method_Mailed check",
+      "importance": 0.1227
+    },
+    {
+      "feature": "cat__payment_method_Bank transfer",
+      "importance": 0.1201
+    }
+  ],
+  "feature_names": [
+    "num__tenure",
+    "num__monthly_charges",
+    "num__total_charges",
+    "num__senior_citizen",
+    "cat__gender_Female",
+    "cat__gender_Male",
+    "cat__partner_No",
+    "cat__partner_Yes",
+    "cat__dependents_No",
+    "cat__dependents_Yes",
+    "cat__contract_Month-to-month",
+    "cat__contract_One year",
+    "cat__contract_Two year",
+    "cat__internet_service_DSL",
+    "cat__internet_service_Fiber optic",
+    "cat__internet_service_No",
+    "cat__tech_support_No",
+    "cat__tech_support_Yes",
+    "cat__payment_method_Bank transfer",
+    "cat__payment_method_Credit card",
+    "cat__payment_method_Electronic check",
+    "cat__payment_method_Mailed check",
+    "cat__paperless_billing_No",
+    "cat__paperless_billing_Yes"
+  ]
+}
